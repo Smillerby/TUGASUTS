@@ -177,4 +177,4 @@ Estimasi Jumlah Energi dalam setiap size menu  :  [506.28582489]
 
 [Estimation APP](https://tugasuts-hvfbfmvfkeqr8meeja3hdb.streamlit.app/).
 
-![Alt text](gmbar4.png) <br>
+![Alt text](gmbr4.png) <br>
