@@ -114,12 +114,12 @@ sns.heatmap(df.corr(), annot=True)
 
 ``` bash
 brands = df.groupby('Serve_Size').count()[['Protein']].sort_values(by='Protein', ascending=True).reset_index()
-brands = brands.rename(columns={'Protein':'Energy'})
+brands = brands.rename(columns={'Protein':'Sat_Fat'})
 ```
 
 ``` bash
 fig = plt.figure(figsize = (15,7))
-sns.barplot(x = brands['Serve_Size'], y = brands['Energy'], color = 'red')
+sns.barplot(x = brands['Serve_Size'], y = brands['Sat_Fat'], color = 'red')
 plt.xticks(rotation = 60)
 ```
 
