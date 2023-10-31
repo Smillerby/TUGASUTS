@@ -161,7 +161,7 @@ predik = lr.predict(X_test)
 y = lr.score(X_test, y_test)
 print('Akurasi Model Regresi Linier : ', y)
 ```
-Akurasi Model Regresi Linier :  0.9640439754565693
+Akurasi Model Regresi Linier :  0.8398585197185817
 
 - Membuat Inputan Regresi Linier
 
