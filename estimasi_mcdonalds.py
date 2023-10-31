@@ -16,7 +16,7 @@ Total_fat = st.number_input('Input Jumlah Total Lemak')
 
 predict = ''
 
-if st.button('Estimasi Energi'):
+if st.button('Estimasi Sat_Fat'):
     predict = model.predict(
         [[Cholesterols, Total_carbohydrate, Total_Sugars, Protein, Trans_fat, Added_Sugars, Total_fat, Energy]]
         )
