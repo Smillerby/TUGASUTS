@@ -130,9 +130,9 @@ plt.xticks(rotation = 60)
 - Pertama adalahh tahap seleksi fitur
 
 ``` bash
-fitur = ['Cholesterols', 'Total_carbohydrate', 'Total_Sugars', 'Protein','Trans_fat','Added_Sugars','Total_fat','Sat_Fat']
+fitur = ['Cholesterols', 'Total_carbohydrate', 'Total_Sugars', 'Protein','Trans_fat','Added_Sugars','Total_fat','Energy']
 x = df[fitur]
-y = df['Energy']
+y = df['Sat_Fat']
 x.shape, y.shape
 ```
 ((141, 4), (141,))
