@@ -123,7 +123,7 @@ sns.barplot(x = brands['Serve_Size'], y = brands['Energy'], color = 'red')
 plt.xticks(rotation = 60)
 ```
 
-![Alt text](gambar3.png) <br>
+![Alt text](bar.png) <br>
 
 ## Modeling Data
 
