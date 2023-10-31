@@ -94,7 +94,7 @@ df.info()
 ``` bash
 sns.heatmap(df.isnull())
 ```
-![Alt text](gambar1.png) <br>
+![Alt text](gmbr1.png) <br>
 
 - Disini kita akan melihat nilai data
 
