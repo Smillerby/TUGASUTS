@@ -8,10 +8,10 @@ Cholesterols = st.number_input('Input Kolesterol (mg)')
 Total_carbohydrate = st.number_input('Input Total Karbohidrat (g)')
 Total_Sugars = st.number_input('Input Jumlah Gula (g)')
 Protein = st.number_input('Input Jumlah Protein (g)')
-Trans_fat = st.number_input('Input Trans_fat')
-Sat_Fat = st.number_input('Input Total Sat Fat')
-Added_Sugars = st.number_input('Input Jumlah Gula ')
-Total_fat = st.number_input('Input Jumlah Total_fat')
+Trans_fat = st.number_input('Input Jumlah Lemak(Lemak Jenuh)')
+Sat_Fat = st.number_input('Input Total Sat Fat(Lemak Padat)')
+Added_Sugars = st.number_input('Input Jumlah Gula Yang Di Tambahkan')
+Total_fat = st.number_input('Input Jumlah Total Lemak')
 
 
 predict = ''
