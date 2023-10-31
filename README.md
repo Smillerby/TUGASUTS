@@ -110,7 +110,7 @@ sns.heatmap(df.corr(), annot=True)
 ```
 ![Alt text](gambar2.png) <br>
 
-- Selanjutnya adalah jumlah energy berdasarkan size menu
+- Selanjutnya adalah jumlah satfat berdasarkan size menu
 
 ``` bash
 brands = df.groupby('Serve_Size').count()[['Protein']].sort_values(by='Protein', ascending=True).reset_index()
@@ -123,7 +123,7 @@ sns.barplot(x = brands['Serve_Size'], y = brands['Energy'], color = 'red')
 plt.xticks(rotation = 60)
 ```
 
-![Alt text](bar.png) <br>
+![Alt text](satfat.png) <br>
 
 ## Modeling Data
 
