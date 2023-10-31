@@ -130,7 +130,7 @@ plt.xticks(rotation = 60)
 - Pertama adalahh tahap seleksi fitur
 
 ``` bash
-fitur = ['Cholesterols', 'Total_carbohydrate', 'Total_Sugars', 'Protein']
+fitur = ['Cholesterols', 'Total_carbohydrate', 'Total_Sugars', 'Protein','Trans_fat','Added_Sugars','Total_fat','Sat_Fat']
 x = df[fitur]
 y = df['Energy']
 x.shape, y.shape
@@ -166,8 +166,8 @@ Akurasi Model Regresi Linier :  0.9640439754565693
 - Membuat Inputan Regresi Linier
 
 ``` bash
-#Cholesterols (mg) = 25.24 , Total_Carbohydrate (g) = 56.96 , Total_Sugars (g) = 7.85 , Protein (g) = 15.3
-inputan = np.array([[25.24, 56.96, 7.85, 15.3]])
+#Cholesterols (mg) = 25.24 , Total_Carbohydrate (g) = 56.96 , Total_Sugars (g) = 7.85 , Protein (g) = 15.3 , Trans_fat = 0.21,  Added_Sugars = 4.76 , Total_fat = 23.45 , Sat_Fat
+inputan = np.array([[25.24, 56.96, 7.85, 15.3, 0.21, 4.76, 23.45, 10.51]])
 prediksi = lr.predict(inputan)
 print('Estimasi Jumlah Energi dalam setiap size menu  : ', prediksi)
 ```
