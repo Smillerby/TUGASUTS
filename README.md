@@ -155,7 +155,7 @@ lr.fit(x_train,y_train)
 predik = lr.predict(X_test)
 ```
 
-## Evalution Data Untuk Melihat Akurasi Regresi Linier
+## Evaluasi Data Untuk Melihat Akurasi Regresi Linier
 
 ``` bash
 y = lr.score(X_test, y_test)
