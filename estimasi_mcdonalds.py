@@ -20,4 +20,4 @@ if st.button('Estimasi Sat_Fat'):
     predict = model.predict(
         [[Cholesterols, Total_carbohydrate, Total_Sugars, Protein, Trans_fat, Added_Sugars, Total_fat, Energy]]
         )
-    st.write ('Estimasi Jumlah Lemak di setiap ukuran makanan McDonalds : ', predict)
+    st.write ('Estimasi Jumlah Lemak padat di setiap ukuran makanan McDonalds : ', predict)
